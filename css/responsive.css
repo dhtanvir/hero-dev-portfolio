@@ -1,0 +1,399 @@
+ /* laptop devices 1025px - 1200px */
+ @media screen and (max-width:1200px) {
+
+     .hero-text h1 {
+         font-size: 32px;
+
+     }
+
+     .hero-text p {
+         font-size: 14px;
+     }
+
+     .buttons {
+
+         flex-direction: row;
+         text-align: center;
+
+     }
+
+     /* =======skills============== */
+
+     .header_title {
+
+         font-size: 18px;
+
+     }
+
+     .main_title {
+         font-size: 20px;
+
+     }
+
+     .skill-card img {
+         max-width: 25%;
+
+     }
+
+     .skill-card h3 {
+         font-size: 18px;
+
+     }
+
+     .skill-card p {
+         font-size: 11px;
+
+     }
+
+     .skill-link {
+
+         font-size: 13px;
+
+     }
+
+     /* =======project============== */
+
+
+ }
+
+ /* tablet devices 769px - 1024px  */
+ @media screen and (max-width:1024px) {
+     .container_section {
+
+         flex-direction: column;
+
+
+     }
+
+     .hero-text {
+
+         text-align: center;
+     }
+
+
+     .hero-text h1 {
+         font-size: 25px;
+
+     }
+
+     .hero-text p {
+         font-size: 15px;
+
+     }
+
+     .buttons {
+         flex-direction: row;
+         align-items: center;
+         justify-content: center;
+     }
+
+     .btn {
+
+         font-size: 14px;
+     }
+
+     .hero-img img {
+         vertical-align: middle;
+         width: 350px;
+     }
+
+     .hero-img {
+         align-items: center;
+         justify-content: center;
+
+     }
+
+     /* =======skills============== */
+
+     .header_title {
+
+         font-size: 14px;
+
+     }
+
+     .main_title {
+         font-size: 18px;
+
+     }
+
+     .skill-card {
+         width: 280px;
+         padding: 25px;
+     }
+
+     .skill-card img {
+         max-width: 20%;
+
+     }
+
+     .skill-card h3 {
+         font-size: 18px;
+
+     }
+
+     .skill-card p {
+         font-size: 11px;
+
+     }
+
+     .skill-link {
+
+         font-size: 13px;
+
+     }
+
+     /* =======project============== */
+
+     .header_title {
+
+         font-size: 14px;
+
+     }
+
+     .main_title {
+         font-size: 18px;
+
+     }
+
+     .project-card {
+         width: 100%;
+         flex-direction: row;
+         align-items: center;
+         justify-content: center;
+     }
+
+     .project-img img {
+         width: 280px;
+
+     }
+
+     .project-content h2 {
+         font-size: 18px;
+     }
+
+     .project-content h4 {
+
+         font-size: 12px;
+     }
+
+     .project-content p {
+         font-size: 12px;
+     }
+
+     .btn {
+         font-size: 12px;
+         padding: 10px 30px;
+
+     }
+
+     /* =======brands============== */
+
+     .header_title {
+
+         font-size: 14px;
+
+     }
+
+     .main_title {
+         font-size: 18px;
+
+     }
+
+     .brand-card {
+         width: 120px;
+         padding: 5px 80px;
+
+     }
+
+     .brand-logo {
+         max-width: 120px;
+         height: auto;
+     }
+
+     /* =======footer========== */
+     .copyRight {
+         font-size: 13px;
+     }
+
+     .container_section {
+         padding: 10px 0px;
+         flex-direction: column;
+         justify-content: space-between;
+         align-items: center;
+         gap: 20px;
+
+     }
+ }
+
+ /* android devices 569px - 768px */
+ @media screen and (max-width:768px) {}
+
+ /* Mobile devices 320px - 568px */
+ @media screen and (max-width:568px) {
+     .container {
+         width: 98%;
+
+     }
+     .hero-text {
+
+         text-align: center;
+     }
+     .hero-text h1 {
+         font-size: 18px;
+
+     }
+
+     .hero-text p {
+         font-size: 12px;
+
+     }
+
+     .buttons {
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+     }
+
+     .btn {
+
+         font-size: 12px;
+         padding: 10px 68px;
+     }
+
+     .hero-img img {
+         vertical-align: middle;
+         width: 280px;
+     }
+
+     .hero-img {
+         align-items: center;
+         justify-content: center;
+
+     }
+
+     /* =======skills============== */
+
+     .header_title {
+
+         font-size: 11px;
+
+     }
+
+     .main_title {
+         font-size: 14px;
+
+     }
+
+     .skill-card {
+         width: 280px;
+         padding: 15px;
+     }
+
+     .skill-card img {
+         max-width: 18%;
+
+     }
+
+     .skill-card h3 {
+         font-size: 18px;
+
+     }
+
+     .skill-card p {
+         font-size: 11px;
+
+     }
+
+     .skill-link {
+
+         font-size: 11px;
+
+     }
+
+     /* =======project============== */
+
+     .header_title {
+
+         font-size: 11px;
+
+     }
+
+     .main_title {
+         font-size: 14px;
+
+     }
+
+     .project-card {
+         width: 95%;
+         align-items: center;
+         flex-direction: column;
+         justify-content: center;
+     }
+
+     .project-img img {
+         width: 250px;
+
+     }
+
+     .project-content h2 {
+         font-size: 20px;
+     }
+
+     .project-content h4 {
+
+         font-size: 12px;
+     }
+
+     .project-content p {
+         font-size: 12px;
+     }
+
+     .btn {
+         font-size: 12px;
+
+     }
+
+     /* =======brands============== */
+
+     .header_title {
+
+         font-size: 11px;
+
+     }
+
+     .main_title {
+         font-size: 14px;
+
+     }
+
+     .brand-card {
+         width: 120px;
+         padding: 5px 80px;
+
+     }
+
+     .brand-logo {
+         max-width: 120px;
+         height: auto;
+     }
+
+     /* =======footer========== */
+     .copyRight {
+         font-size: 11px;
+     }
+
+     .container_section {
+         padding: 10px 0px;
+         flex-direction: column;
+         justify-content: space-between;
+         align-items: center;
+         gap: 20px;
+
+     }
+
+ }
+
+ /* 
+     #hidden {
+         display: none;
+     } */
